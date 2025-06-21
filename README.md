@@ -5,7 +5,6 @@
 
 ## 🚀 **Contenido**
 - ✅ Ejercicios de **refactorización** (code smells → soluciones).
-- ✅ Implementación de **patrones de diseño** (GoF: Creacionales, Estructurales, Conductuales).
 - ✅ Ejemplos con **principios SOLID** y buenas prácticas.
 - ✅ Proyectos modulares organizados por categorías.
 
