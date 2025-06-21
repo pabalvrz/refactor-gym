@@ -12,17 +12,15 @@
 ---
 
 ## 🛠️ **Tecnologías**
-- **Lenguaje**: Java 17 | Kotlin | [Otro] *(elige el tuyo)*
-- **Herramientas**: IntelliJ IDEA | VS Code
-- **Build**: Maven | Gradle *(opcional)*
-- **Testing**: JUnit 5 | Mockito *(opcional)*
+- **Lenguaje**: Java 17
+- **Herramientas**: IntelliJ IDEA
 
 ---
 
 ## ⚡ **Cómo ejecutar**
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/refactoring-patterns.git
+   git clone https://github.com/pabalvrz/refactor-gym.git
 2. Abre el proyecto en tu IDE favorito.
 
 3. Navega a la carpeta del patrón o ejercicio que quieras revisar.
