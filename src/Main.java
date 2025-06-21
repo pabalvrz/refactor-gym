@@ -13,10 +13,61 @@ public class Main {
 //        llamadaInlineTempArreglado();
 //        llamadaReplaceTempWithQuery();
 //        llamadaReplaceTempWithQueryArreglado();
-        llamadaSplitTemporaryVariable();
-        llamadaSplitTemporaryVariableArreglado();
+//        llamadaSplitTemporaryVariable();
+//        llamadaSplitTemporaryVariableArreglado();
+//        llamadaRemoveAssignmentsToParameters();
+//        llamadaRemoveAssignmentsToParametersArreglado();
+//        llamadaReplaceMethodWithMethodObject();
+//        llamadaReplaceMethodWithMethodObjectArreglado();
+        llamadaSubstituteAlgorithm();
+        llamadaSubstituteAlgorithmArreglado();
 
+    }
 
+    private static void llamadaSubstituteAlgorithmArreglado() {
+        SubstituteAlgorithm validator = new SubstituteAlgorithm();
+        System.out.println("¿'_var1' válido? " + validator.isValidIdentifierArreglado("_var1"));
+        System.out.println("¿'1var' válido? " + validator.isValidIdentifierArreglado("1var"));
+        System.out.println("¿'mi var' válido? " + validator.isValidIdentifierArreglado("mi var"));
+    }
+
+    private static void llamadaSubstituteAlgorithm() {
+        SubstituteAlgorithm validator = new SubstituteAlgorithm();
+        System.out.println("¿'_var1' válido? " + validator.isValidIdentifier("_var1"));
+        System.out.println("¿'1var' válido? " + validator.isValidIdentifier("1var"));
+        System.out.println("¿'mi var' válido? " + validator.isValidIdentifier("mi var"));
+    }
+
+    private static void llamadaReplaceMethodWithMethodObjectArreglado() {
+        ReplaceMethodWithMethodObject calculator = new ReplaceMethodWithMethodObject();
+        System.out.println("Resultado ($1000, 5%, 4 años): $" +
+                calculator.calculateArreglado(1000.0, 0.05, 4));
+    }
+
+    private static void llamadaReplaceMethodWithMethodObject() {
+        ReplaceMethodWithMethodObject calculator = new ReplaceMethodWithMethodObject();
+        System.out.println("Resultado ($1000, 5%, 4 años): $" +
+                calculator.calculate(1000.0, 0.05, 4));
+    }
+
+    private static void llamadaRemoveAssignmentsToParametersArreglado() {
+        RemoveAssignmentsToParameters discountApplier = new RemoveAssignmentsToParameters();
+        System.out.println("Precio final (-10% descuento): $" +
+                discountApplier.applyDiscountArreglado(100.0, -10));
+        System.out.println("Precio final (60% descuento): $" +
+                discountApplier.applyDiscountArreglado(100.0, 60));
+        System.out.println("Precio final (20% descuento): $" +
+                discountApplier.applyDiscountArreglado(100.0, 20));
+    }
+
+    private static void llamadaRemoveAssignmentsToParameters() {
+        RemoveAssignmentsToParameters discountApplier = new RemoveAssignmentsToParameters();
+        System.out.println("Precio final (-10% descuento): $" +
+                discountApplier.applyDiscount(100.0, -10));
+        System.out.println("Precio final (60% descuento): $" +
+                discountApplier.applyDiscount(100.0, 60));
+        System.out.println("Precio final (20% descuento): $" +
+                discountApplier.applyDiscount(100.0, 20));
     }
 
     private static void llamadaSplitTemporaryVariableArreglado() {
